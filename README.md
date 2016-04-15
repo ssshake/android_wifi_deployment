@@ -7,17 +7,25 @@ I originally created this with helping develop on the GearVR. The gearvr require
 
 ## Commmands
 ./connect_wifi.sh
+
   -Connect your device over USB and run this command. 
+
   -It will obtain the wifi IP, stand up a listener on port 5555.
+
   -After you run this command and it says it's successful you can disconnect your phone from USB
 
 ./get_package_name.sh <search-pattern>
+
   -A very basic wrapper for logcat which you can modify to get your package names. You need this so that you can tell the install_wifi.sh command what package to execute after installing it.
+
   -To get a package name, run logcat, then run the application on your device. The package name will show up in the mess of logs. Using grep to reduce the number of log lines returned helps
 
 ./install_wifi.sh <file.apk> <com.package.name>
+
   -Example: ./install test.apk com.Daggasoft.Peripheral/com.google.unity.GoogleUnityActivity
+
   -com.package.name is obtained by logcat or get_package_name.sh
+
   -The package namem is required only if you want to run the package automatically after installing it. If you don't care about this dont supply the package name, only the APK.
 
 
