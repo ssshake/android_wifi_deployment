@@ -3,7 +3,7 @@ I created a couple basic scripts to make deploying APKs to android devices over 
 
 This script puts your phone into wifi connectable mode, and allows your to do all the typical things that you would normally do over USB. Logcat, install, uninstall, run, etc.
 
-I originally created this with helping develop on the GearVR. The gearvr requires removing the phone from the headset in order to plug in over USB to upload APKs. With this system I'm now able to lead my phone in the headset.
+I originally created this to help develop on the GearVR. The gearvr requires removing the phone from the headset in order to plug in over USB to upload APKs. With this system I'm now able to leave my phone in the headset.
 
 ## Commmands
 `./connect_wifi.sh`
