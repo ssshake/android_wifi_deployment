@@ -10,7 +10,7 @@ I originally created this to help develop on the GearVR. The gearvr requires rem
 
   -  Connect your device over USB and run this command. 
 
-  -  It will obtain the wifi IP, stand up a listener on port 5555.
+  -  It will obtain the wifi IP, and stand up a listener on port 5555.
 
   -  After you run this command and it says it's successful you can disconnect your phone from USB
 
