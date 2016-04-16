@@ -26,7 +26,7 @@ I originally created this to help develop on the GearVR. The gearvr requires rem
 
   -  com.package.name is obtained by logcat or get_package_name.sh
 
-  -  The package namem is required only if you want to run the package automatically after installing it. If you don't care about this dont supply the package name, only the APK.
+  -  The package name is required only if you want to run the package automatically after installing it. If you don't care about this dont supply the package name, only the APK.
 
 
 
